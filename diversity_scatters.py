@@ -11,7 +11,8 @@ df['total_diversity_hc1'] = df['hc1_part_male_hisp'] + df['hc1_part_male_black']
 
 df['diversity_proportion'] = df['total_diversity_hc1'] / df['total_hc1']
 
-df['diversity_hc1_partners'] = df['hc1_part_male_hisp'] + df['hc1_part_male_black'] + df['hc1_part_male_asian'] + df['hc1_part_male_pi'] + df['hc1_part_male_nata'] + df['hc1_part_male_tomr'] + df['hc1_part_fem_hisp'] + df['hc1_part_fem_black'] + df['hc1_part_fem_asian'] + df['hc1_part_fem_pi'] + df['hc1_part_fem_nata'] + df['hc1_part_fem_tomr']df['diversity_hc1_partners_proportion'] = df['diversity_hc1_partners'] / df['total_hc1']
+df['diversity_hc1_partners'] = df['hc1_part_male_hisp'] + df['hc1_part_male_black'] + df['hc1_part_male_asian'] + df['hc1_part_male_pi'] + df['hc1_part_male_nata'] + df['hc1_part_male_tomr'] + df['hc1_part_fem_hisp'] + df['hc1_part_fem_black'] + df['hc1_part_fem_asian'] + df['hc1_part_fem_pi'] + df['hc1_part_fem_nata'] + df['hc1_part_fem_tomr']
+df['diversity_hc1_partners_proportion'] = df['diversity_hc1_partners'] / df['total_hc1']
 
 df['diversity_hc1_equity_partners'] = df['hc1_eq_male_hisp'] + df['hc1_eq_male_black'] + df['hc1_eq_male_asian'] + df['hc1_eq_male_pi'] + df['hc1_eq_male_nata'] + df['hc1_eq_male_tomr'] + df['hc1_eq_fem_hisp'] + df['hc1_eq_fem_black'] + df['hc1_eq_fem_asian'] + df['hc1_eq_fem_pi'] + df['hc1_eq_fem_nata'] + df['hc1_eq_fem_tomr'] + df['hc1_eq_nb_hisp'] + df['hc1_eq_nb_black'] + df['hc1_eq_nb_asian'] + df['hc1_eq_nb_pi'] + df['hc1_eq_nb_nata'] + df['hc1_eq_nb_tomr'] + df['hc1_eq_nogen_hisp'] +df['hc1_eq_nogen_black'] + df['hc1_eq_nogen_asian'] + df['hc1_eq_nogen_pi'] + df['hc1_eq_nogen_nata'] + df['hc1_eq_nogen_tomr']
 
