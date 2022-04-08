@@ -1,6 +1,6 @@
 import pandas as pd
 
-pd.read_csv('headcount_data.csv')
+df = pd.read_csv('headcount_data.csv')
 
 df = df[df.firm_auto_namenid != 'test']
 df = df.fillna(0)
